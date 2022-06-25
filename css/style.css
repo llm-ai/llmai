@@ -361,7 +361,7 @@ button:focus,
     }
 
 .jumbotron .content {
-    color             : #1f1e63;  
+    color             : #FFFFFF;  
     position          : absolute;
     top               : 50%;
     left              : 0;
@@ -376,7 +376,7 @@ button:focus,
     }
 
 .jumbotron .content h1 {
-    color       : #1f1e63; 
+    color       : #FFFFFF; 
     font-weight : bold;
     }
 
