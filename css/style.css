@@ -361,12 +361,12 @@ button:focus,
     }
 
 .jumbotron .content {
-    color             : #edb048;  
+    color             : #FFFFFF;  
     position          : absolute;
     top               : 80%;
     left              : 0;
     right             : 0;
-    height            : 50%;
+    height            : 40%;
     width             : 100%;
     margin            : 0 auto;
     padding           : 0 10%;
@@ -376,20 +376,20 @@ button:focus,
     }
 
 .jumbotron .content h1 {
-    color       : #edb048; 
+    color       : #FFFFFF; 
     font-weight : bold;
     }
 
 .jumbotron .content p.lead {
     font-size   : 24px;
     line-height : 1.5em;
-    color       : rgba(31, 30, 99, 1);
+    color       : rgba(255,255,255);
     }
 
 .jumbotron .content .event-date {
     font-size     : 24px;
     margin-bottom : 40px;
-    color       : rgba(31, 30, 99, 1);
+    color       : rgba(255,255,255);
     }
 
 .jumbotron .btn {
