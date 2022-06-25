@@ -358,6 +358,7 @@ button:focus,
     background-repeat     : no-repeat;
     background-position   : center center;
     overflow              : hidden;
+    opacity: 0.5;
     }
 
 .jumbotron .content {
