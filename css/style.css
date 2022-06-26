@@ -358,11 +358,10 @@ button:focus,
     background-repeat     : no-repeat;
     background-position   : center center;
     overflow              : hidden;
-	opacity: 0.5;
     }
 
 .jumbotron .content {
-    color             : #000000;  
+    color             : #FFFFFF;  
     position          : absolute;
     top               : 55%;
     left              : 0;
@@ -377,7 +376,7 @@ button:focus,
     }
 
 .jumbotron .content h1 {
-    color       : #000000; 
+    color       : #FFFFFF; 
     font-weight : bold;
     }
 
