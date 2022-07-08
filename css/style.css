@@ -384,6 +384,7 @@ button:focus,
     font-size   : 24px;
     line-height : 1.5em;
     color       : rgba(255,255,255);
+    font-weight : bold;
     }
 
 .jumbotron .content .event-date {
