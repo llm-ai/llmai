@@ -1,10 +1,11 @@
 Welcome! 
 
-Deep Learning for Search Recommendation (DL4SR 2022)
-Workshop held in conjunction with CIKM 2022 on Oct 22, 2022
+From Innovation to Scale (I2S) 
+-Discuss and learn how to successfully build, commercialize, and scale AI innovations in challenging market conditions
+Workshop held in conjunction with KDD 2023 on August 6-10, 2023
 
-# dl4sr22
-Home page for https://dl4sr.github.io/dl4sr22/
+# I2S
+Home page for  https://ai2sdata.github.io/ai2s/
 
 
 
