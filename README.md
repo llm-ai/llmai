@@ -1,11 +1,11 @@
 Welcome! 
 
-From Innovation to Scale (I2S) 
--Discuss and learn how to successfully build, commercialize, and scale AI innovations in challenging market conditions
+Theories and Applications in Large-scale AI Models:
+Pre-training, Fine-tuning, and Prompt-based Learning
 Workshop held in conjunction with KDD 2023 on August 6-10, 2023
 
-# I2S
-Home page for  https://ai2sdata.github.io/ai2s/
+# LLMAI
+Home page for  https://llm-ai.github.io/llmai/
 
 
 
