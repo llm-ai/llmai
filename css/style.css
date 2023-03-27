@@ -346,7 +346,7 @@ button:focus,
  *-------------------*/
 
 .jumbotron {
-    background            : url("../img/lb.jpeg");
+    background            : url("../img/beach.jpeg");
     background-size       : cover;
     padding               : 0;
     margin                : 0;
@@ -376,7 +376,7 @@ button:focus,
     }
 
 .jumbotron .content h1 {
-    color       : #FF8C00; 
+    color       : #191970; 
     font-size   : 32px;
     font-weight : bold;
     }
