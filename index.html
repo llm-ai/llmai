@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>LLM-AI 2023</title>
+
+    <!-- favicon -->
+    <link href="https://github.com/fluidicon.png" rel=icon>
+
+    <!-- web-fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,500' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar">
+<div id="main-wrapper">
+    <!-- Page Preloader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="status-mes"></div>
+        </div>
+    </div>
+
+    <header class="header">
+        <!-- Navigation -->
+        <nav class="navbar main-menu" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!--
+                        <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo.png" alt=""></a>
+                    -->
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden"><a href="#page-top"></a></li>
+                        <li><a class="page-scroll" href="#section-intro">About</a></li>
+<!--                           <li><a class="page-scroll" href="#cfp">CFP</a></li> -->
+                        <li><a class="page-scroll" href="#section-invited">Keynote Speakers</a></li>
+<!--                         <li><a class="page-scroll" href="#papers">Accepted Papers</a></li> -->
+			    <li><a class="page-scroll" href="#Schedule">Schedule</a></li>
+                        <li><a class="page-scroll" href="#section-organizers">ORGANIZERS</a></li>
+<!-- 			 <li><a class="page-scroll" href="#pc">Program Committe</a></li> -->
+<!--                        <li><a class="page-scroll" href="#section-ajenda">Agenda</a></li>-->
+<!--                        <li><a class="page-scroll" href="#section-dates">Important Dates</a></li>-->
+
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <!-- .nav -->
+
+    </header>
+
+    <div class="jumbotron text-center">
+        <div class="content">
+            <div class="event-date">August 6-10, 2023</div>
+            <h1> Theories and Applications in Large-scale AI Models
+                 <br>-Pre-training, Fine-tuning, and Prompt-based Learning</br></h1>
+            <p class="lead">Workshop held in conjunction with <a href="https://kdd.org/kdd2023/" "class="button scrolly"> KDD 2023 </a></p>
+            <a href="#section-intro"><button type="button" class="btn btn-default btn-lg" >See Details</button></a>
+        </div>
+    </div>
+    <!-- .Jumbotron-->
+
+
+    <section id="section-intro" class="section-wrapper about-event gray-bg ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="lead">
+Deep learning techniques have advanced rapidly in recent years, leading to significant progress in pre-trained and fine-tuned large-scale AI models. For example, in the natural language processing domain, the traditional "pre-train, fine-tune" paradigm is shifting towards the "pre-train, prompt, and predict" paradigm, which has achieved great success on many tasks across different application domains such as ChatGPT/BARD for Conversational AI and P5 for a unified recommendation system. Moreover, there has been a growing interest in models that combine vision and language modalities (vision-language models) which are applied to tasks like Visual Captioning/Generation.		   
+		    </p>    
+                    <p class="lead" >
+Considering the recent technological revolution, it is essential to have a workshop at the KDD conference that emphasizes these paradigm shifts and highlights the paradigms with the potential to solve different tasks. This workshop will provide a platform for academic and industrial researchers to showcase their latest work, share research ideas, discuss various challenges, and identify areas where further research is needed in pre-training, fine-tuning, and prompt-learning methods for large-scale AI models. The workshop will also foster the development of a strong research community focused on solving challenges related to large-scale AI models, providing superior and impactful strategies that can change people’s lives in the future.		
+		    </p>  
+			 
+                </div>
+            </div>
+        </div>
+    </section>
+		    
+
+<section id="section-invited" class="section-invited gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Keynote Speakers</h1>
+                    </div>
+                </div>
+            </div>
+		 </div>
+<!--
+	<div class="container">	
+		<div class="row" id="section-invited-1">
+               		<div class="col-sm-0 col-md-4">
+		       		<figure class="thumbnail">
+                        		<img src="img/Ed.jpeg" class="img-responsive" alt="Image"></a>
+                    		</figure>
+                 	</div>
+                
+
+                	<div class="col-sm-0 col-md-8">
+                   		<div class="section-title">
+                        		<h3 align="left">Beyond Being Accurate: Neural Modeling and Reinforcement Learning for Large-Scale Real-World Recommendation Problems
+
+</h3>
+					<p></p>
+					<h4  align="left">Ed H. Chi</a></h4>
+                        		<h4  align="left"><small>Distinguished Scientist at Google</small></h4>
+					<p></p>
+                        		<h5 align="justify"> 
+						
+			              Fundamental improvements in recommendation and ranking have been much harder to come by, when compared with recent progress on other long-standing AI problems such as visual/audio machine perception and machine translation. 
+						Some reasons include: (1) large amounts of data making training difficult, yet having (2) noisy and sparse labels; (3) changing dynamics of context such as user preferences and items; and (4) low-latency requirement for a system response. Moreover, one new challenge is devising approaches to (5) learning more inclusive and robust models.
+
+<br>
+<br>
+In this talk, Ed will touch upon many recent advances in neural modeling techniques for recommendations and their impact in Google products covering ~600 improvements over the last 5 years across these problems, including:
+
+<ul>
+  <li> (a). Multi-task models with gated mixture of experts and utilizing TPUs for large sparse models</li>
+  <li> (b). Large output item spaces with Neural Deep Retrieval</li>
+  <li> (c). Policy gradient RL techniques with off-policy correction in recommendation models</li>
+	<li> (d). Diversification and slate optimization</li>
+	<li> (e). Adversarial approaches for inclusiveness and robustness for Classifiers and Recommenders</li>
+</ul> 
+
+				</h5>
+					<p></p>
+					<h5 align="justify" >Speaker Bio:
+						<br>
+Ed H. Chi is a Distinguished Scientist at Google, leading several machine learning research teams focusing on neural modeling, reinforcement learning, dialog chatbot models called LaMDA, reliable/robust machine learning, and recommendation systems in Google Brain team. His team has delivered significant improvements for YouTube, News, Ads, Google Play Store at Google with ~600 product improvements since 2013. With 39 patents and >150 research articles, he is also known for research on user behavior in web and social media.
+
+
+Prior to Google, he was the Area Manager and a Principal Scientist at Palo Alto Research Center's Augmented Social Cognition Group, where he led the team in understanding how social systems help groups of people to remember, think and reason. Ed completed his three degrees (B.S., M.S., and Ph.D.) in 6.5 years from University of Minnesota. Recognized as an ACM Distinguished Scientist and elected into the CHI Academy, he recently received a 20-year Test of Time award for research in information visualization. He has been featured and quoted in the press, including the Economist, Time Magazine, LA Times, and the Associated Press. An avid swimmer, photographer and snowboarder in his spare time, he also has a blackbelt in Taekwondo.
+						</br>
+
+				</h5>
+				</div>
+                    		</div>
+                	</div>
+            	</div>
+	
+	
+		<div class="row" id="section-invited-1-bio">
+                	<div class="col-sm-0 col-md-6">
+                    		<div class="section-title">
+                        		<h3></h3>
+                        		
+					
+                    		</div>
+                	</div>
+			<div class="col-sm-0 col-md-6">
+                    		<div class="section-title">
+					<h3></h3>
+                        		
+                	</div>
+		</div>
+	</div>
+	
+		<div class="container">	
+		<div class="row" id="section-invited-1">
+               		<div class="col-sm-0 col-md-4">
+		       		<figure class="thumbnail">
+                        		<img src="img/caiming1.jpeg" class="img-responsive" alt="Image"></a>
+                    		</figure>
+                 	</div>
+                
+
+                	<div class="col-sm-0 col-md-8">
+                   		<div class="section-title">
+                        		<h3 align="left">A Path Towards More Universal Question Answering Systems</h3>
+					<p></p>
+					<h4  align="left">Caiming Xiong </a></h4>
+                        		<h4  align="left"><small>VP of AI Research at Salesforce</small></h4>
+					<p></p>
+                        		<h5 align="justify"> 
+					With the growing capabilities in how we represent and process structured and unstructured text, there are many opportunities to innovate newer and deeper search paradigms. This would allow us to go beyond building one-off models, each focusing on a specific question-answering (QA) task targeting a specific domain, reasoning skill, or answer type. In this talk, Caiming will start with a series of in-depth presentations on a few of the recent QA research conducted by the Salesforce AI Research team addressing several key questions in the QA domain.
+				</h5>
+					<p></p>
+					<h5 align="justify">Speaker Bio:
+						<br>
+Caiming Xiong is Vice President of AI Research at Salesforce. He received his Ph.D. in the department of Computer Science and Engineering, University of Buffalo, SUNY and worked as a Postdoctoral Researcher Scholar at the University of California, Los Angeles. His research interests fall in the disciplines of ML/DL, natural language processing, multimedia, and AI for Good. He has served on the organizing committee of multiple workshops and has been conference area chair in top-tier conferences such as NeurIPS, ICLR, EMNLP, AC, AAAI etc.
+</br>
+				</h5>
+				</div>
+                    		</div>
+                	</div>
+            	</div>
+	
+	
+	
+		<div class="row" id="section-invited-1-bio">
+                	<div class="col-sm-0 col-md-6">
+                    		<div class="section-title">
+                        		<h3></h3>
+                        		
+					
+                    		</div>
+                	</div>
+			<div class="col-sm-0 col-md-6">
+                    		<div class="section-title">
+					<h3></h3>
+                        		
+                	</div>
+		</div>
+	</div>
+
+
+	<div class="container">	
+		<div class="row" id="section-invited-1">
+               		<div class="col-sm-0 col-md-4">
+		       		<figure class="thumbnail">
+                        		<img src="img/Jenny2.png" class="img-responsive" alt="Image"></a>
+                    		</figure>
+                 	</div>
+                
+
+                	<div class="col-sm-0 col-md-8">
+                   		<div class="section-title">
+                        		<h3 align="left">Responsible Recommendation of Information Items: Veracity, Fairness, and Trust</h3>
+					<p></p>
+					<h4  align="left">Xiuzhen (Jenny) Zhang</a></h4>
+                        		<h4  align="left"><small>Professor of RMIT University, Australia</small></h4>
+					<p></p>
+                        		<h5 align="justify">Recommender systems have grown beyond E-commerce applications to novel domains.  In particular, information items such as news articles, social media posts and reviews are complex items associated with properties such as author’s viewpoints, stance, reputation, credibility, and bias. We posit that the objective of recommendation of such complex information items shall go beyond high accuracy of satisfying user personal interests to high social responsibility.   Socially responsible recommender systems  call for shift to a new paradigm of data preparation, recommendation model and evaluation.  In this talk, I will discuss our recent work on recommendation of social media items for the mitigation of misinformation and fairness of information sources, as well as user trust of information items. </h5>
+					<p></p>
+					<h5 align="justify">Speaker Bio:
+						<br>
+						Xiuzhen (Jenny) Zhang is Professor of Data Science at RMIT University, Australia. Her research interests are data mining and machine learning, with a focus on textual data and social media data.  She is especially interested in data science for social good, in areas such as misinformation detection and mitigation, law enforcement, and digital health. She has published over 100 papers in these areas. She is an associate editor of the journal Information Processing and Management, and  has served on the organising committee of international and Australian conferences such as KDD, PAKDD, EMNLP, IEEE DSAA, ALTW, ADMA.
+                        		</br>
+				</h5>
+				</div>
+                    		</div>
+                	</div>
+            	</div>
+	
+	
+		<div class="row" id="section-invited-1-bio">
+                	<div class="col-sm-0 col-md-6">
+                    		<div class="section-title">
+                        		<h3></h3>
+                        		
+					
+                    		</div>
+                	</div>
+			<div class="col-sm-0 col-md-6">
+                    		<div class="section-title">
+					<h3></h3>
+                        		
+                	</div>
+		</div>
+	</div>
+	
+		<div class="container">	
+		<div class="row" id="section-invited-1">
+               		<div class="col-sm-0 col-md-4">
+		       		<figure class="thumbnail">
+                        		<img src="img/belinda1.jpeg" class="img-responsive" alt="Image"></a>
+                    		</figure>
+                 	</div>
+                
+
+                	<div class="col-sm-0 col-md-8">
+                   		<div class="section-title">
+                        		<h3 align="left">Scaling, Strengthening and Serving: Innovating through Large-Scale Deep Representations in E-commerce Product Search and Recommendation Applications</h3>
+					<p></p>
+					<h4  align="left">Belinda Zeng</a></h4>
+                        		<h4  align="left"><small>GM, Head of Applied Science and Engineering - Amazon Search Science and AI</small></h4>
+					<p></p>
+                        		<h5 align="justify">
+					Recent work in e-commerce product search and recommendations have shown result improvement by using large scale pre-trained model based Deep Learning approach. However, this has not been an easy task in the real-world development and deployment due to several constraints: 1) scaling the size of model and training data with computational efficiency is challenging; 2) boosting the incumbent ML applications performance using large scale pre-trained model in the real business setting requires careful algorithm design and data strategy; and 3) serving millions of requests per second at high throughput and low latency is a daunting task. In this talk, I will share our recent work that addresses these issues and a vision for future innovations.
+				</h5>
+					<p></p>
+                        		<h5 align="left">
+					</h5>
+					<p></p>
+					<h5 align="justify">Speaker Bio:
+						<br>
+				Belinda Zeng is currently Head of Applied Science and Engineering in Amazon Search Science and AI. Over her career, she has been taking various leadership roles at Amazon (Alexa AI and Amazon Consumer Payments), Nielsen, Discover financial and Deloitte Consulting. She is currently leading Amazon's large scale AI program where she works with a group of top-notch scientists and engineers building universal semantic representations of e-commerce specific entities. This effort aims to bring Amazon services beyond the current state-of-the-art and unlock many new downstream applications that bring delightful experiences to Amazon customers. She obtained her PhD in Economics and Master in Mathematics in Indiana University - Bloomington.
+				</br>
+				</h5>
+				</div>
+                    		</div>
+                	</div>
+            	</div>
+	 -->
+	
+		<div class="row" id="section-invited-1-bio">
+                	<div class="col-sm-0 col-md-6">
+                    		<div class="section-title">
+                        		<h3>TBD </h3>
+                        		
+					
+                    		</div>
+                	</div>
+			<div class="col-sm-0 col-md-6">
+                    		<div class="section-title">
+					<h3></h3>
+                        		
+                	</div>
+		</div>
+	</div>
+
+	</div>
+		   
+
+    </section>
+
+
+
+<section id="Schedule" class="section-wrapper team white-bg">
+  <div class="container">
+      <div class="row">
+           <div class="col-md-12">
+               <div class="section-title">
+                        <h1>Workshop Program</h1>
+                 </div>
+
+          <style type="text/css">
+                    .tftable {
+                        font-size: 15px;
+                        color: #333333;
+                        width: 100%;
+                        border-width: 1px;
+                        border-color: #729ea5;
+                        border-collapse: collapse;
+                    }
+
+                    .tftable th {
+                        font-size: 15px;
+                        background-color: #acc8cc;
+                        border-width: 1px;
+                        padding: 8px;
+                        border-style: solid;
+                        border-color: #729ea5;
+                        text-align: left;
+                    }
+
+                    .tftable tr {
+                        background-color: #d4e3e5;
+                    }
+
+                    .tftable td {
+                        font-size: 15px;
+                        border-width: 1px;
+                        padding: 8px;
+                        border-style: solid;
+                        border-color: #729ea5;
+                    }
+
+                    .tftable tr:hover {
+                        background-color: #ffffff;
+                    }
+                </style>
+		    
+		    TBD
+<!--
+               <table class="tftable" border="1">
+                    <tr>
+                        <th>Time</th>
+                        <th>Speaker</th>
+                        <th>Title</th>
+                    </tr>
+
+                    <tr>
+                        <td>08:35AM - 08:40AM, 2022/10/21 (EDT) 
+                        </td>
+                        <td>Host Chair</td>
+                        <td>Welcome and Open Remarks</td>
+                    </tr>
+
+                    <tr>
+                        <td>08:40AM - 09:25AM, 2022/10/21 (EDT) </td>
+                        <td>Xiuzhen (Jenny) Zhang [Professor of RMIT University, Australia]</td>
+                        <td>Keynote 1: Responsible Recommendation of Information Items: Veracity, Fairness, and Trust</td>
+                    </tr>
+                    <tr>
+                        <td>09:25AM - 09:35AM, 2022/10/21 (EDT) </td>
+                        <td>Qian Yu, Xiangdong Wu and Chen Yang et.al</td>
+                        <td> Paper-1 :Exploiting Global Behavior Contextual Correlation in Sequential Recommendation Augmentation</td>
+                    </tr>
+                    <tr>
+                        <td>09:35AM - 09:45AM, 2022/10/21 (EDT) </td>
+                        <td> Tajuddeen Gwadabe, Mohammed Ali Al-Hababi and Ying Liu </td>
+                        <td> Paper-2 : Session-based Recommendation with Dual Graph Networks</td>
+                    
+                    </tr>
+                    <tr>
+                      <td>09:45AM - 10:20AM, 2022/10/21 (EDT) </td>
+                        <td>Jonathan Purnell[VP of Data Science at Spectrum Labs]</td>
+                        <td>Keynote 2: A Deep Learning Virtuous Cycle for User Understanding
+</td>
+                    </tr>
+                    <tr>
+                        <td>09:45AM - 10:00AM, 2022/10/21 (EDT)
+			<td>Yingyi Zhang, Xianneng Li and Yahe Yu et.al</td>
+			<td> Paper-3 : Entire Cost Enhanced Multi-Task Model for Online-to-Offline Conversion Rate Prediction</td>
+                         
+                    </tr>
+		     <tr>
+                        <td>10:00AM - 10:15AM, 2022/10/21 (EDT)
+			<td  style="text-align:center" colspan="2">Coffee Break</td>
+                    </tr>
+                    
+                    <tr>
+                         <td>10:15AM -10:30AM, 2022/10/21 (EDT) </td>
+                        <td> Gautam Kumar and Chikara Hashimoto </td>
+                        <td> Paper-4 :  A Two-Phased Approach to Training Data Generation for Shopping Query Intent Prediction</td>
+               
+                    </tr>
+                    <tr>       
+                         <td>10:30AM - 10:45AM, 2022/10/21 (EDT) </td>
+                        <td> Yanchao Tan, Carl Yang and Xiangyu Wei et.al</td>
+                        <td> Paper-5 :Partial Relaxed Optimal Transport for Denoised Recommendation  </td>
+                
+                    </tr>
+                    <tr>
+                        
+                         <td>10:45AM - 11:00AM, 2022/10/21 (EDT) </td>
+                        <td> Shaochuan Lin, Yicong Yu and Xiyu Ji et.al</td>
+                        <td> Paper-6 :Spatiotemporal-Enhanced Network for Click-Through Rate Prediction in Location-based Services</td>
+                    
+                    </tr>
+
+		    <tr>
+                      <td>11:00AM - 11:30AM, 2022/10/21 (EDT) </td>
+                        <td>Belinda Zeng[GM, Head of Applied Science and Engineering - Amazon Search Science and AI]</td>
+                        <td>Keynote 3: Scaling, Strengthening and Serving: Innovating through Large-Scale Deep Representations in E-commerce Product Search and Recommendation Applications</td>
+                    </tr>
+		       
+		      <tr>
+                      <td>11:30AM - 12:15AM, 2022/10/21 (EDT) </td>
+                        <td>Ed H. Chi [Distinguished Scientist at Google]</td>
+                        <td>Keynote 4: Beyond Being Accurate: Neural Modeling and Reinforcement Learning for Large-Scale Real-World Recommendation Problems</td>
+                    </tr>
+		     <tr>
+                        <td>12:15AM - 13:15PM, 2022/10/21 (EDT)
+			<td  style="text-align:center" colspan="2">Lunch Break</td>
+                    </tr>
+                    <tr>
+ 		      <tr>
+                      <td>13:15PM - 13:50PM, 2022/10/21 (EDT) </td>
+                        <td>Caiming Xiong[VP of AI Research at Salesforce]</td>
+                        <td>Keynote 5: A Path Towards More Universal Question Answering Systems</td>
+                    </tr>                       
+                   
+		       <td>13:50PM - 14:05PM, 2022/10/21 (EDT) </td>
+                        <td>  Vito Walter Anelli, Yashar Deldjoo and Tommaso Di Noia et.al</td>
+                        <td> Paper-7 : Reshaping Graph Recommendation with Edge Graph Collaborative Filtering and Customer Reviews </td>
+                 
+                    </tr>
+                    
+                    <tr>
+                        
+                         <td>14:05PM - 14:15PM, 2022/10/21 (EDT) </td>
+                        <td> Debanjan Mahata, Navneet Agarwal and Dibya Gautam et.al</td>
+                        <td>  Paper-8 : LDKP - A Dataset for Identifying Keyphrases from Long Scientific Documents</td>
+                    
+                    </tr>
+
+                   <tr>
+                        
+                         <td>14:15PM - 14:30PM, 2022/10/21 (EDT) </td>
+                        <td>  Osayande P. Omondiagbe, Sherlock A Licorish and Stephen G. MacDonell.</td>
+                        <td> Paper-9 : Preventing Negative Transfer on Sentiment Analysis in Deep Transfer Learning</td>
+                 
+                    </tr>
+                    
+                    <tr>
+                        
+                         <td>14:30PM - 14:45PM, 2022/10/21 (EDT) </td>
+                        <td> Tesi Xiao, Xia Xiao, Ming Chen and Youlong Chen.</td>
+                        <td> Paper-10 : Field-wise Embedding Size Search via Structural Hard Auxiliary Mask Pruning for Click-Through Rate Prediction</td>
+
+                    </tr>
+                    
+                    <tr>
+                        
+                         <td>14:45PM - 14:55PM, 2022/10/21 (EDT) </td>
+                        <td> Xianjing Liu, Behzad Golshan, Kenny Leung, Aman Saini, Vivek Kulkarni, Ali Mollahosseini and Jeff Motd>
+                        <td> Paper-11 : TWICE - Twitter Content Embeddings</td>
+
+                    </tr>
+		       
+                    <tr>
+                        
+                        <td> 14:55PM - 15:05PM, 2022/10/21 (EDT)  </td>
+                        <td> Xue Li, Wei Shen and Denis Charles</td>
+                        <td> Paper-12 : TEDL: A Two-stage Evidential Deep Learning Method for Classification Uncertainty Quantification
+                     </td>
+                 
+                    </tr>
+
+
+                <tr>
+                        <td>15:05PM - 15:10PM, 2022/10/21 (EDT)  </td>
+                        <td  style="text-align:center" colspan="2">Closing Remarks  </td>
+                    </tr>
+
+
+
+                </table>
+	 -->
+      </div>
+     </div>
+      </div>
+</section>
+
+
+	
+    <section id="section-organizers" class="section-wrapper team gray-bg">
+        <div class="container" >
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>WORKSHOP ORGANIZERS</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+	<div class="row">
+                <div class="col-md-3">
+                    <figure class="thumbnail">
+                        <a href="https://www.linkedin.com/in/derekzcheng/" target="view_window"><img src="img/derek.jpeg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h4><small>Derek Cheng</small>
+                            </h4>
+                            <h5>
+                                <small> Google Research</small></h5>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+		    
+	    <div class="col-md-1"></div>
+            <div class="col-md-3">
+                    <figure class="thumbnail">
+                        <a href="https://www.linkedin.com/in/dhaval-patel-2b287033/" target="view_window"><img src="img/dhaval.jpeg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h4><small>Dhaval Patel</small>
+                            </h4>
+                            <h5><small>IBM Research</small></h5>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+                    <figure class="thumbnail">
+                        <a href="https://www.linkedin.com/in/linsey-pang-50590450/" target="view_window"><img src="img/xlp.jpeg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h4><small>Linsey Pang</small>
+                            </h4>
+                            <h5><small>Salesforce</small></h5>
+                            
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div> 
+        </div>       
+		 
+               
+		<div class="row">
+                <div class="col-md-3">
+                    <figure class="thumbnail">
+                        <a href="https://sites.google.com/view/edchi/" target="view_window"><img src="img/Ed.jpeg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h4><small>Ed H. Chi</small>
+                            </h4>
+                            <h5><small>Google Research</small></h5>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+		
+		    
+		    <div class="col-md-1"></div>   
+		<div class="col-md-3">
+                    <figure class="thumbnail">
+                        <a href="https://research.ibm.com/people/sameep-mehta" target="view_window"><img src="img/sameep.jpeg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h4><small>Sameep Maheta</small></h4>
+                            <h5>
+                                <small>IBM Research</small>
+                            </h5>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+		     <div class="col-sm-1"></div>
+	
+	        <div class="col-md-3">
+                    <figure class="thumbnail">
+                        <a href="https://www.linkedin.com/in/kexinxie/" target="view_window"><img src="img/kexin.jpeg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h4><small>Kexin Xie</small></h4>
+                            <h5>
+                                <small>Salesforce</small>
+                            </h5>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+		 </div>
+
+		<div class="row">
+               <div class="col-md-3">
+                    <figure class="thumbnail">
+                        <a href="https://wei-research.github.io/" target="view_window"><img src="https://wei-research.github.io/assets/images/WeiLiu_Photo.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h4><small>Wei Liu</small></h4>
+                            <h5>
+                                <small>University of Technology Sydney</small>
+                            </h5>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+		
+		  <div class="col-md-1"></div>     
+		<div class="col-md-3">
+                    <figure class="thumbnail">
+                        <a href="https://niteshchawla.nd.edu//" target="view_window"><img src="img/nitesh_chawla.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h4><small>Nitesh Chawla</small></h4>
+                            <h5>
+                                <small>University of Notre Dame</small>
+                            </h5>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>   
+		
+		      <div class="col-md-1"></div> 
+                <div class="col-md-3">
+                    <figure class="thumbnail">
+                        <a href="https://people.eng.unimelb.edu.au/baileyj/" target="view_window"><img src="img/jbailey.jpeg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h4><small>James Bailey</small></h4>
+                            <h5>
+                                <small>The University of Melbourne </small>
+                            </h5>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div> 
+
+            <!--/div-->
+	
+		    
+		<p> <center> <strong>Contact: llmai.workshop@gmail.com </strong></center></p>
+
+   
+	</div>
+    </section>
+
+<!--
+<section id="pc" class="section-wrapper team white-bg">
+		   <div class="container">
+			   <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Program Committee</h1>
+                    </div>
+                        <p> Philippe Laban, Salesforce</p>
+			<p> Zhensong Qian, Amazon</p>
+			<p> Donglin Hu , Salesforce</p>
+			<p> Xinghao Yang, University of Technology Sydney</p>
+			<p> Ali	Braytee, University of Technology, Sydney</p>
+			<p> Aneesh Chivukula, BITS Pilani</p>
+			<p> Mingze Ni, University of Technology, Sydney</p>
+			<p> Vito Ostuni, Netflix </p>
+			<p> Xianjing Liu, Twitter Inc.</p>
+			<p> Xue	Li, Microsoft</p>
+			<p> Raghavendra	Chalapathy, Walmart Labs </p>
+			
+		
+		   </div>
+	 </div>
+            </div>
+
+	</section>
+-->
+    
+
+    <footer class="footer">
+        <div class="copyright-section">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="copytext text-center">&copy; Conference. All rights reserved | Website Organized By: <a href="https://github.com/Connorlee487">Connor Lee, Albert Wang</a> | Template By: <a href="https://uicookies.com">uiCookies</a></div>
+                </div>
+            </div>
+            <!-- .container -->
+        </div>
+        <!-- .copyright-section -->
+    </footer>
+    <!-- .footer -->
+
+</div>
+<!-- #main-wrapper -->
+
+
+<!-- jquery -->
+<script src="js/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+
+<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+
+<!--<script src="js/one-page-nav.js"></script>-->
+<script src="js/scripts.js"></script>
+</body>
+</html>
